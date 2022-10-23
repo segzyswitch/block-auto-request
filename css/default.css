@@ -1,0 +1,100 @@
+body {
+	background-color: rgb(18, 29, 51);
+	font-size: 150%;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.header {
+	background-image: url('https://login.blockchain.com/img/bg-pattern.svg');
+	background-size: 100% 100%;
+	padding: 35px 15px 25px 15px;
+	margin-bottom: 30px;
+}
+
+.text-white { color:#fff; }
+.text-light { color:rgb(152, 161, 178); }
+.text-pale { color:rgb(12, 108, 242); }
+.text-bold { font-weight: bold; }
+
+.center-page {
+	float: none;
+	margin: auto;
+}
+
+.page-feedback {
+	position: fixed;
+	padding: 15px 30px 15px 15px;
+	right: 15px;
+	top: 50px;
+	background-color: #FFF;
+	border-left: 5px solid rgb(12, 108, 242);
+	border-radius: 10px;
+	color: #21365e;
+	font-weight: bold;
+	min-width: 200px;
+	max-width: 90%;
+	z-index: 9999;
+	box-shadow: 0 0 10px #000;
+	display: none;
+}
+.page-feedback .close {
+	position: absolute;
+	left: auto;
+	right: 10px;
+	top: 15px;
+}
+
+.thumbnail {
+	padding: 30px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 0 10px #000;
+}
+
+.form-group {
+	margin-bottom: 25px;
+}
+
+.form-control {
+	padding: 23px 10px;
+	border: 1px solid rgb(223, 227, 235);
+	border-radius: 10px;
+	margin: 5px 0;
+}
+.form-control:focus {
+	border: 1px solid rgb(12, 108, 242);
+	color: #000;
+	box-shadow: 0 0 0 2px rgb(12, 108, 242);
+}
+
+.btn-primary {
+	background-color: rgb(12, 108, 242);
+	color: #FFF;
+	border-radius: 10px;
+}
+.btn-primary:hover {
+	background-color: rgb(12, 108, 242)!important;
+}
+
+.url-btn {
+	    cursor: pointer;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 32px;
+	display: inline-block;
+	border: none;
+}
+
+
+/* MOBILE SCRREN STYLES 767PX AND BELOW */
+@media only screen and (max-width: 767px) {
+	
+}
